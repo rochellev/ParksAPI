@@ -15,15 +15,26 @@
 * Postman
 * Swagger
 
-## Installation
-* Follow the following steps using the terminal
-* After running project, go to http://localhost:5000
+## Installation for API
+* Follow these steps using the terminal
+* You must run the API before the web app
 
 ```sh
 $ git clone https://github.com/rochellev/ParksAPI.git
 $ cd ParksAPI
 $ dotnet restore
 $ dotnet ef database update
+$ dotnet run
+```
+
+## Installation for Web App
+* Follow these steps using the terminal, after running the api
+* After running project, go to http://localhost:5003
+
+```sh
+$ git clone https://github.com/rochellev/ParkFinder.Solution.git
+$ cd ParkFinder.Solution/ParkFinder
+$ dotnet restore
 $ dotnet run
 ```
 
