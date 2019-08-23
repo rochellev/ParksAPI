@@ -51,8 +51,4 @@ $ dotnet run
   * JSON Schema in swagger.json 
 * MVC Client App 
   * Consumes ParksAPI
-
-
-
-
-* trying to do token stuff
+* JWT Authentication
