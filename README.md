@@ -17,11 +17,10 @@
 * After running project, got to http://localhost:5000
 
 ```sh
-$ git clone 
-$ cd \HairSalon.Solution\HairSalon
+$ git clone https://github.com/rochellev/ParksAPI.git
+$ cd ParksAPI
 $ dotnet restore
 $ dotnet run
 ```
 
-## Database Setup
 
