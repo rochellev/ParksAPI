@@ -11,6 +11,7 @@
 * HTML
 * MySQL
 * Entity
+* Postman
 
 ## Installation
 * Follow the following steps using the terminal
