@@ -33,3 +33,9 @@ $ dotnet run
   * Migrations used to maintain the tables
 * Swagger
   * Provides clear documentation of the endpoints of the ParksAPI
+  * NSwagStudio to generate client code 
+
+
+
+## Working on 
+* working on using nswag --- oh boy!
