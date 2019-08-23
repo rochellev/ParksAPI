@@ -26,4 +26,5 @@ $ dotnet run
 ## API Features
 * Swagger
   * Provides clear documentation of the endpoints of the ParksAPI
-* 
+* MySQL Database
+  * Park Object
