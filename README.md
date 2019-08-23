@@ -39,3 +39,5 @@ $ dotnet run
 
 ## Working on 
 * working on using nswag --- oh boy!
+
+* nevermind! I thought it would create models and views for me.. so moving on to make a MVC client side app to use my Parks api
