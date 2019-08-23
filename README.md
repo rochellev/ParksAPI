@@ -12,6 +12,7 @@
 * MySQL
 * Entity
 * Postman
+* Swagger
 
 ## Installation
 * Follow the following steps using the terminal
@@ -21,6 +22,7 @@
 $ git clone https://github.com/rochellev/ParksAPI.git
 $ cd ParksAPI
 $ dotnet restore
+$ dotnet ef database update
 $ dotnet run
 ```
 
@@ -33,9 +35,9 @@ $ dotnet run
   * Migrations used to maintain the tables
 * Swagger
   * Provides clear documentation of the endpoints of the ParksAPI
-  * NSwagStudio to generate client code 
-
-
+  * https://localhost:5001/swagger/index.html
+  * JSON Schema in swagger.json 
+  <!-- * NSwagStudio to generate client code  -->
 
 ## Working on 
 * working on using nswag --- oh boy!
