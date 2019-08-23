@@ -24,9 +24,11 @@ $ dotnet run
 ```
 
 ## API Features
-* Swagger
-  * Provides clear documentation of the endpoints of the ParksAPI
+* Full CRUD functionality
+  * Developed Create, Read, Update, Delete endpoints
 * MySQL Database
   * Parks Table
   * Data containing a park's name, state or national status, and city
   * Migrations used to maintain the tables
+* Swagger
+  * Provides clear documentation of the endpoints of the ParksAPI

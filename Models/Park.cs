@@ -11,7 +11,7 @@ namespace ParksAPI.Models
         [Key]
         public int ParkId { get; set; }
         public string Name { get; set; }
-        public bool IsNational { get; set; }
+        public string Type { get; set; }
         public string Area { get; set; }
         public string URL {get; set;}
     }

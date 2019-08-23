@@ -23,9 +23,9 @@ namespace ParksAPI.Migrations
 
                     b.Property<string>("Area");
 
-                    b.Property<bool>("IsNational");
-
                     b.Property<string>("Name");
+
+                    b.Property<string>("Type");
 
                     b.Property<string>("URL");
 
