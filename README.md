@@ -3,7 +3,7 @@
 -----
 
 ## Description
-* Custom API featuring Washington state parks.
+* Custom API featuring state and national parks in Washington.
 
 ## Technologies Used
 * C#/.NET
@@ -14,7 +14,7 @@
 
 ## Installation
 * Follow the following steps using the terminal
-* After running project, got to http://localhost:5000
+* After running project, go to http://localhost:5000
 
 ```sh
 $ git clone https://github.com/rochellev/ParksAPI.git
@@ -23,4 +23,7 @@ $ dotnet restore
 $ dotnet run
 ```
 
-
+## API Features
+* Swagger
+  * Provides clear documentation of the endpoints of the ParksAPI
+* 
