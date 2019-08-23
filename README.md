@@ -27,5 +27,6 @@ $ dotnet run
 * Swagger
   * Provides clear documentation of the endpoints of the ParksAPI
 * MySQL Database
-  * Park Table
-  * This table holds data about a park's name, state or national jurisdiction, and it's city.
+  * Parks Table
+  * Data containing a park's name, state or national status, and city
+  * Migrations used to maintain the tables
