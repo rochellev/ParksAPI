@@ -21,11 +21,13 @@ namespace ParksAPI.Migrations
                     b.Property<int>("ParkId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("City");
+                    b.Property<string>("Area");
 
                     b.Property<bool>("IsNational");
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("URL");
 
                     b.HasKey("ParkId");
 
