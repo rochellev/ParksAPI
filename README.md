@@ -3,11 +3,12 @@
 -----
 
 ## Description
-* Custom API featuring state and national parks in Washington.
+* Custom API featuring state and national parks in Washington. Additionally, I created a MVC Web app to consume ParksAPI.
 
 ## Technologies Used
 * C#/.NET
 * ASP.NET Core Web API
+* ASP.NET Core MVC Web App
 * HTML
 * MySQL
 * Entity
@@ -37,9 +38,5 @@ $ dotnet run
   * Provides clear documentation of the endpoints of the ParksAPI
   * https://localhost:5001/swagger/index.html
   * JSON Schema in swagger.json 
-  <!-- * NSwagStudio to generate client code  -->
-
-## Working on 
-* working on using nswag --- oh boy!
-
-* nevermind! I thought it would create models and views for me.. so moving on to make a MVC client side app to use my Parks api
+* MVC Client App 
+  * Consumes ParksAPI
